@@ -1,0 +1,37 @@
+Patterns de programare in general:
+
+-Singleton
+-Factory
+-Decorator
+-Dependency Injection
+-Pure functions
+-Code splitting
+-Observer
+-Immutability
+-Currying (in functional programming)
+
+
+
+React patterns:
+-Prop Drilling
+-Context API
+-Component composition
+-Higher-Order Components
+-Component Lifecycle
+-Error boundaries
+-Pure components
+-Lazy loading
+-Render props
+-Hooks
+
+
+
+
+Javascript patterns:
+-Promises / async / await
+-Closures
+-Lexical context
+-Prototypal inheritance
+-Scope chain and hoisting
+-“this” keyword and context binding
+-Event Loop

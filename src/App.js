@@ -1,24 +1,48 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import UseMemo from "./components/UseMemo";
+
+import UseStateComponent from "./components/UseState";
+
+import UseCallback from "./components/useCallback";
+
+import UseReducer from "./components/useReducer";
+
+import ContextFirstComp from "./components/ContextFirstComp";
+
+import ContextSecondComp from "./components/ContextSecondCOmp";
+
+import UseLayoutEffect from "./components/useLayoutEffect ";
+
+import UseRef from "./components/useRef";
+
+import { ThemeProvider } from "./context/ThemeContext";
+
+import ComponentComposition from "./patterns/Component composition/ComponentComposition";
+
+import PureComp from "./patterns/Pure Components/PureComponent";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      {/* <UseStateComponent /> */}
+      {/* <UseMemo /> */}
+      {/* <UseCallback /> */}
+      {/* <UseReducer /> */}
+
+      {/* <UseRef /> */}
+      {/* <UseLayoutEffect /> */}
+
+      {/* <ThemeProvider>
+        <div>
+          <ContextFirstComp />
+          <ContextSecondComp />
+        </div>
+      </ThemeProvider> */}
+
+      {/* <ComponentComposition /> */}
+
+      <PureComp />
+    </>
   );
 }
 
